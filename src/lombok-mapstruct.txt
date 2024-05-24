@@ -1,0 +1,15 @@
+Lombok
+-@Getter:lombok tu dong generate all getter method
+-@Setter: lombok tu dong generate all setter method
+-@Data: lombok tu dong generate all getter and setter
+-@Builder: de dang set va get cac attribute cua 1 doi tuong maf ko can tao doi tuong do
+  @AllArgsContructor
+  @NoArgsContructor
+VD: User u = User.builder().username(" ")
+                .dob("");
+-@FieldDefaults(level = AccessLevel.(private, public, ...)): dinh nghia muc do truy cap cua cac field
+
+----------------------------------------------------------------
+Mapstruct:
+-@MapingTarget: syntax: @MappingTarget A, B  ==>>> mapping du lieu tu B vao A
+-@Mapping: syntax: @Mapping(source= " ", target = " ")
